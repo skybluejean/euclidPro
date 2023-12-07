@@ -18,6 +18,7 @@ const server = http.createServer((req, res) => {
             }
         });
     }
+    
 
     // /api/posts 경로에 대한 요청 처리
     else if (req.url === '/api/posts') {
